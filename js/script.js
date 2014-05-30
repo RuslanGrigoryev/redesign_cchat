@@ -47,6 +47,10 @@ jQuery(document).ready(function($) {
 		});
 	};
 
-	$('.mysel').selectbox();
-	$('#withPhoto').checkbox();
+	if ( $('.mysel').length ) {
+		$('.mysel').selectbox();
+	}
+	if ( $('#withPhoto').length ) {
+		$('#withPhoto').checkbox();
+	}
 });
