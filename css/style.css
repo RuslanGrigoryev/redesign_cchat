@@ -61,11 +61,11 @@ header {
 .logo1 {
   display: block;
   position: absolute;
-  top: 55px;
-  right: 10px;
-  width: 115px;
-  height: 43px;
-  background: url('../img/logo1.png') no-repeat;
+  top: 40px;
+  right: 6px;
+  width: 68px;
+  height: 60px;
+  background: url('../img/beeline-logo.png') no-repeat;
   display: none;
 }
 
