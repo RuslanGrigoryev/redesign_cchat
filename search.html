@@ -1,0 +1,281 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">	
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />	
+	<title>Главная</title>
+	<link href="css/selectbox.css" rel="stylesheet" />
+	<link href="css/checkbox.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">	
+	<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+	<div class="container">
+		<header class="cenral">
+			<div class="user">
+				<a href="#" class="exit">выход</a>
+				<a href="#" class="logo1"></a>
+				<div class="inl user-photo"><img class="us" src="img/user.png" alt="user"></div>
+				<div class="inl user-inf">
+					<div class="user-name">animator</div>
+					<div class="user-age">18 лет</div>
+					<div class="user-city">Санкт-Петербург</div>
+				</div>
+				<div class="inl mail">
+					<div class="inl before-mail"></div>
+					<div class="inl mail-photo"></div>
+				</div>
+			</div>
+			<div class="under-head">
+				<a href="#" class="inl logo"></a>
+				<ul class="inl menu">
+					<li class="menu-item"><a class="item1" href="#"></a></li>
+					<li class="menu-item"><a class="item2" href="#"></a></li>
+					<li class="menu-item"><a class="item3" href="#"></a></li>
+					<li class="menu-item"><a class="item4" href="#"></a></li>
+					<li class="menu-item"><a class="item5" href="#"></a></li>
+					<li class="menu-item"><a class="item6" href="#"></a></li>
+					<li class="menu-item active"><a class="item7" href="#"></a></li>
+					<li class="menu-item exit1"><a class="item8" href="#">Выход</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="content cenral">
+		
+			<div class="content-part">
+				<div class="cont-header">
+					<div class="ch-long"></div>
+					<div class="inl ch-descr">Поиск</div><div class="inl transition"></div>										
+				</div>
+				<div class="cont search-cont">
+					<div class="inl sex">
+						<label class="sel" for="sex">Пол</label>
+						<select name="sex" id="sex" class="mysel">
+							<option value="1">Ищу девушку</option>
+							<option value="2">Ищу парня</option>
+						</select>
+					</div>
+					<div class="inl age">
+						<label class="sel" for="age">Возраст</label>
+						<select name="age" id="age" class="mysel">
+							<option value="1">18-19</option>
+							<option value="2">20-25</option>
+							<option value="2">25-30</option>
+						</select>
+					</div>
+					<div class="inl from">
+						<label class="sel" for="from">Откуда</label>
+						<select name="from" id="from" class="mysel">
+							<option value="1">Не важно</option>
+							<option value="2">Не важно</option>
+						</select>
+					</div>
+					<div class="anketa">
+						<input type="checkbox" id="withPhoto" name="withPhoto">
+						<label for="withPhoto" class="withPhoto">Только <span class="an">анкеты</span> с фото</label>
+					</div>
+					<form action="index.html" class="search-name">
+						<label for="searchNik" class="for-sn">Поиск по имени (по нику)</label>
+						<input type="text" class="search-nik" id="searchNik" name="searchNik">
+						<button class="grey-button go-search">искать</button>
+					</form>
+				</div>	
+				<div class="content-part s-cont">
+				<div class="cont-header">
+					<div class="block_myPhoto">
+						<a href="#" class="tab_nav active t1" data-tab="tab1">Все <span class="an">пользователи</span></a>
+						<a href="#" class="tab_nav t2" data-tab="tab2">Новички</a>
+						<a href="#" class="tab_nav t3" data-tab="tab3">On-line</a>
+					</div>
+				</div>
+				<div class="cont tabs-cont search-tabs">
+					<div id="tab1" class="tabs">
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph1" src="img/photo1.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Коля</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Коля,&nbsp;</strong>27 лет, козерог</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph2" src="img/photo2.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Black valet</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Black valet,&nbsp;</strong>18 лет, стрелец</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph3" src="img/photo3.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Princessa</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Princessa,&nbsp;</strong>20 лет, дева</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+					</div>
+					<div id="tab2" class="tabs">
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph1" src="img/photo1.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Коля</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Коля,&nbsp;</strong>27 лет, козерог</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph2" src="img/photo2.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Black valet</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Black valet,&nbsp;</strong>18 лет, стрелец</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph3" src="img/photo3.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Princessa</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Princessa,&nbsp;</strong>20 лет, дева</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+					</div>
+					<div id="tab3" class="tabs">				
+						<div class="wrap_myPhoto"></div>
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph1" src="img/photo1.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Коля</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Коля,&nbsp;</strong>27 лет, козерог</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph2" src="img/photo2.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Black valet</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Black valet,&nbsp;</strong>18 лет, стрелец</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+						<div class="cont mess-cont">
+							<div class="inl friend">
+								<div class="friend-photo"><img class="ph3" src="img/photo3.png" alt="friend"></div>
+								<a href="#" class="grey-button write-mess">Написать</a>
+								<div class="friend-name m-b">Princessa</div>
+							</div>	
+							<div class="inl vertical-line"></div>
+							<div class="inl message">
+								<div class="last-mess"><strong>Princessa,&nbsp;</strong>20 лет, дева</div>
+								<div class="but-gr">
+									<a href="#" class="inl an grey-button">Заблокировать</a>
+									<a href="#" class="inl grey-button m-b">написать</a>
+									<div class="inl vertical-small"></div>
+									<a href="#" class="inl grey-button">Добавить <span class="an">в друзья</span></a>
+									<a href="#" class="inl grey-button m-b">заблокировать</a>
+								</div>
+							</div>				
+						</div>	
+					</div>
+				</div>
+				</div>
+			</div>
+
+			</div>
+			<footer class="cenral">
+			<ul class="menu foot-menu">
+				<li class="inl foot-menu-item"><a href="#">На главную</a></li>
+				<li class="inl foot-menu-item"><a href="#">Об услуге</a></li>
+				<li class="inl foot-menu-item"><a href="#">Соглашение</a></li>
+				<li class="inl foot-menu-item"><a href="#">На личную</a></li>
+			</ul>
+		</footer>
+		</div>
+		
+	
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>
+	<script src="js/jquery.selectbox.min.js"></script>
+	<script src="js/jquery.checkbox.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>

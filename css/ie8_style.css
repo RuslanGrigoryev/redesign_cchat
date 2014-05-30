@@ -1,0 +1,9 @@
+.tab_nav{
+	width: 213px;
+	display: block;
+	float: left;
+	margin-left: -1px;
+}
+.cont {
+  clear: both;
+}
