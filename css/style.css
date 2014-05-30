@@ -30,7 +30,7 @@ input, textarea {
   position: relative;
   width: 641px;
   height: auto;
-  background: url('../img/contanerBG.jpg');
+  background: #fff;
   min-height: 300px;
   margin: 0 auto;
 }
@@ -50,7 +50,7 @@ input, textarea {
 /****************header****************/
 
 header {
-  background: #e7f0f7;
+  background: #fff;
   border-radius: 0 0 30px 30px;
 }
 
@@ -144,23 +144,22 @@ header {
 
 .menu {
   list-style: none;
-  margin-left: 43px;
+  /* margin-left: 43px; */
   margin-top: 4px;
 }
 
 .menu-item {
   display: inline-block;
   vertical-align: top;
-  margin: -10px 0 -6px 0;
-  padding: 10px 0 0 5px;
-  height: 49px;
+  /* margin: 0px 0 -6px 0; */
+  /* padding: 0px 3px 0 3px; */
+  height: 39px;
 }
 .menu-item:hover,
 .menu-item.active{
-  background: #a0c0d2
-}
+  background: #f2a42c;}
 .menu-item:first-child{
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 .menu-item.exit1:hover{
   background: transparent;
@@ -170,12 +169,14 @@ header {
   background: url('../img/menu.png') no-repeat;
   width: 38px;
   height: 38px;
+  padding: 3px;
 }
 .menu-item a.item1{
-  margin-right: -3px;
+  /* margin-right: 0px; */
+  background-position: 12px 2px;
 }
 .menu-item a.item2 {
-  background-position: -48px 0;
+  background-position: -42px 0;
 }
 
 .menu-item a.item3 {
@@ -218,6 +219,7 @@ header {
   position: relative;
   width: 100%;
   height: 42px;
+  background: url(../img/bg-bar.png) no-repeat;
   border-bottom: 1px solid #9cc2c7;
 }
 
@@ -506,7 +508,7 @@ footer {
 }
 
 .foot-menu {
-  margin-left: 7px;
+  /* margin-left: 7px; */
 }
 
 .ph1 {
@@ -1112,9 +1114,11 @@ body.enter-body {
   }
 
   .menu {
-    margin-left: 13px;
+    /* margin-left: 13px; */
     height: 39px;
-  }
+  
+    width: 360px;
+}
 
   .content {
     margin-top: -10px;
@@ -1140,7 +1144,7 @@ body.enter-body {
 
   .transition {
     width: 38px;
-    height: 27px;
+    height: 28px;
     background: url('../img/transition1.png');
   }
 
@@ -1195,16 +1199,16 @@ body.enter-body {
   }
 
   .foot-menu-item {
-    width: 66px;
-    padding: 5px 8px;
+    width: 72px;
+    padding: 5px;
   }
 
   .foot-menu-item a {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .foot-menu {
-    margin-left: 7px;
+    /* margin-left: 7px; */
   }
 
   .logo1 {
