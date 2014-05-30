@@ -30,7 +30,7 @@ input, textarea {
   position: relative;
   width: 641px;
   height: auto;
-  background: #fff;
+  background: #ccc;
   min-height: 300px;
   margin: 0 auto;
 }
@@ -317,7 +317,7 @@ header {
 
 .news-item {
   padding-left: 25px;
-  background: url('../img/news-item.png') 2px 5px no-repeat;
+  background: url('../img/news-item.png') 10px 5px no-repeat;
   margin-bottom: 10px;
 }
 .uppload_myPhoto{
@@ -1067,7 +1067,9 @@ body.enter-body {
   .container, .cenral, .uppload_myPhoto, .tabs-cont, .status, .content-part {
     width: 100%;
     /* min-width: 360px; */
-  }  
+  
+    margin-top: 2px;
+}  
 
   .exit {
     display: block;
@@ -1118,7 +1120,7 @@ body.enter-body {
     /* margin-left: 13px; */
     height: 39px;
   
-    width: 360px;
+    width: 100%;
 }
 
   .content {
@@ -1150,7 +1152,7 @@ body.enter-body {
   }
 
   .cont {    
-    padding: 10px 16px 10px 16px;
+    padding: 9px;
   }
 
   .friend-cont {
@@ -1200,7 +1202,7 @@ body.enter-body {
   }
 
   .foot-menu-item {
-    width: 72px;
+    width: 69px;
     padding: 5px;
   }
 
@@ -1593,4 +1595,13 @@ width: 107px;
   text-align: center;
 }
 
+}
+.link-write {
+  width: 100%;
+  display: block;
+  background: #000;
+  text-align: center;
+  padding: 4px 0;
+  margin-top: 4px;
+  font-size: 13px;
 }
