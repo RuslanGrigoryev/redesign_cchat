@@ -1464,18 +1464,20 @@ body.enter-body {
 }
 
 .mess-cont .message {
-  width: 241px;
+  width: 221px;
   margin-left: 14px;
 }
 
 .mess-list {
-  padding: 7px 10px 10px 20px;
-  width: 217px;
-  background: #ececec;
+  padding: 6px;
+  /* width: 193px; */
+  background: #fffcec;
   border-radius: 8px;
   margin-left: -5px;
   font-size: 15px;
   min-height: 33px;
+  border: 1px solid #e5e0d4;
+  list-style: none;
 }
 
 .last-mess {
@@ -1566,7 +1568,7 @@ width: 107px;
 }
 
 .last-mess {
-  width: 84px;
+  /* width: 84px; */
   display: inline-block;
   vertical-align: top;
 }
