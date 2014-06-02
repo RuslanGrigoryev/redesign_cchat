@@ -421,6 +421,7 @@ header {
 .content-part-index .wrap_myPhoto {
   float: none;
   height: 130px;
+  padding-top: 20px;
   background: #fff;
 }
 .wrap_myPhoto .control_photo{
@@ -1629,3 +1630,22 @@ width: 107px;
 .wrap_myPhoto .control_photo .download:hover {
   background: url(../img/photo-controll-sprite.png) -4px 0px no-repeat; 
 }
+.photo-comments {
+    padding: 15px;
+}
+.comments-block{
+    border: 1px solid #ededed;
+    margin-top: 2px;
+    padding: 5px;
+}
+.comments-block__img{
+    display: inline-block;
+}
+.comments-block__wrap-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    line-height: 23px;
+}
+.comments-block__user-name{}
+.comments-block__user-text{}
