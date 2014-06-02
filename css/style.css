@@ -145,7 +145,7 @@ header {
 .menu {
   list-style: none;
   /* margin-left: 43px; */
-  margin-top: 4px;
+  /* margin-top: 4px; */
 }
 
 .menu-item {
@@ -153,11 +153,14 @@ header {
   vertical-align: top;
   /* margin: 0px 0 -6px 0; */
   /* padding: 0px 3px 0 3px; */
-  height: 39px;
+  height: 46px;
 }
 .menu-item:hover,
 .menu-item.active{
-  background: #f2a42c;}
+  background: #f2a42c;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 1px 2px rgba(0,0,0,.6);
+}
 .menu-item:first-child{
   /* padding-left: 10px; */
 }
@@ -167,46 +170,46 @@ header {
 .menu-item a {
   display: block;
   background: url('../img/menu.png') no-repeat;
-  width: 38px;
-  height: 38px;
-  padding: 3px;
+  width: 37px;
+  height: 37px;
+  padding: 10px 3px;
 }
 .menu-item a.item1{
   /* margin-right: 0px; */
-  background-position: 12px 2px;
+  background-position: 10px 5px;
 }
 .menu-item a.item2 {
-  background-position: -42px 0;
+  background-position: -43px 4px;
 }
 
 .menu-item a.item3 {
-  background-position: -99px 0;
+  background-position: -94px 4px;
 }
 
 .menu-item a.item4 {
-  background-position: -146px 0;
-  width: 40px;
+  background-position: -143px 4px;
+  /* width: 40px; */
 }
 
 .menu-item a.item5 {
-  background-position: -198px 0;
-  width: 41px;
+  background-position: -194px 6px;
+  /* width: 41px; */
 }
 
 .menu-item a.item6 {
-  background-position: -250px 0;
-  margin-right: 3px;
+  background-position: -247px 5px;
+  /* margin-right: 3px; */
 }
 
 .menu-item a.item7 {
-  background-position: -300px 0;
-  margin-right: 3px;
+  background-position: -298px 4px;
+  /* margin-right: 3px; */
 }
 
 .menu-item a.item8 {
   background: none;
   font-size: 23px;
-  margin: 5px 0 0 7px;
+  /* margin: 5px 0 0 7px; */
 }
 
 /***************content***************/
@@ -1109,7 +1112,8 @@ body.enter-body {
   .under-head {
    margin-top: 7px;
     border-radius: 0;
-    padding: 6px 0 10px 0;
+    
+   padding: 2px 0;
   }
 
   .exit1 {
@@ -1118,7 +1122,7 @@ body.enter-body {
 
   .menu {
     /* margin-left: 13px; */
-    height: 39px;
+    height: 47px;
   
     width: 100%;
 }
